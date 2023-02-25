@@ -1,0 +1,37 @@
+#services{
+    margin-top: 5%;
+    .row{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    a span{
+        color: $red;
+
+    }
+    .service-picture-left{
+        
+        height: 67vh;
+        background-image: url(../img/service1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: $radius;
+    }
+    .service-picture-top{
+        height: 32vh;
+        border-radius: $radius;
+        background-image: url(../img/passport.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 1rem;
+    }
+    .service-picture-bottom{
+        height: 32vh;
+        border-radius: $radius;
+        background-image: url(../img/montgolfiere.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

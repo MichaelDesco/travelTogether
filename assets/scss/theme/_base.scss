@@ -1,0 +1,71 @@
+body{
+    margin:0;
+}
+
+// TITLE
+// 
+h1{
+    color: $white;
+    font-family: $bold,Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-shadow: $shadow-text;
+}
+
+h2{
+    color: black;
+    font-family: $bold,Arial, Helvetica, sans-serif;
+    text-shadow: $shadow-text;
+}
+
+h3{
+    color: $white;
+    font-family: $light,Arial, Helvetica, sans-serif;
+    text-shadow: $shadow-text;
+}
+
+h4{
+    color: $black;
+    font-family: $light,Arial, Helvetica, sans-serif;
+    text-shadow: $shadow-text;
+}
+
+h5{
+    color: $white;
+    font-family: $light,Arial, Helvetica, sans-serif;
+    text-shadow: $shadow-text;
+}
+
+// LIST
+// 
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    padding: 0 1.5rem;
+}
+
+// LINK
+// 
+a{
+    text-decoration: none;
+    color: black;
+}
+#services a{
+    color: $white;
+}
+
+// PARAGRAPH
+// 
+p{
+    color:$black;
+    font-size: 1rem;
+}
+#agency p{
+    color: $white;
+    padding: 1rem 0;
+}
+#contact p{
+    color: $white;
+}

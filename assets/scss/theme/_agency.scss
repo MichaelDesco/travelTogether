@@ -1,0 +1,31 @@
+#agency{
+    
+    max-width: 100vw;
+
+    .agency{
+        background-color: $pink;
+        box-shadow: $shadow;
+        border-radius: $radius;
+        overflow: hidden;
+        height: 60vh;
+    }
+
+    .agency-article{
+        color: $white;
+        width: 60%;
+
+        p{
+            margin: 1rem 0;
+        }
+    }
+
+    .agency-picture {
+        width: 18vw;
+    }
+    .btn{
+        padding: $btn-padding;
+        box-shadow: $shadow;
+        color: $black;
+        background-color: $white;
+    }
+}
