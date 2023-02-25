@@ -131,16 +131,16 @@ header {
   border-radius: 15px;
 }
 #services .service-picture-top {
-  height: 32vh;
+  height: 32.5vh;
   border-radius: 15px;
   background-image: url(../img/passport.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 #services .service-picture-bottom {
-  height: 32vh;
+  height: 32.5vh;
   border-radius: 15px;
   background-image: url(../img/montgolfiere.jpg);
   background-size: cover;
@@ -169,11 +169,11 @@ header {
   background-color: #E7816B;
   border-radius: 15px;
   box-shadow: 3px 3px 5px black;
-  height: 30vh;
-  transform: translateY(-40%);
+  height: 35vh;
+  transform: translateY(-45%);
 }
 #contact .contact-article {
-  padding: 1.5rem 4rem;
+  padding: 2.5rem 4rem;
   text-shadow: 1px 1px 1px #999ca9;
 }
 #contact .contact-article h3 {
@@ -187,7 +187,7 @@ header {
   background-color: #FFFFFF;
   display: inline-block;
   position: absolute;
-  margin-top: 6%;
+  margin-top: 7%;
   margin-left: 7%;
 }
 
@@ -206,6 +206,13 @@ header {
 #bottom-footer p {
   color: #FFFFFF;
   line-height: 10px;
+}
+#bottom-footer .socialIconColor {
+  background-color: #FFFFFF;
+  width: 32px;
+}
+#bottom-footer ul {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

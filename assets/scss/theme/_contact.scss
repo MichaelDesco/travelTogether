@@ -5,11 +5,11 @@
         background-color: $pink;
         border-radius: $radius;
         box-shadow: $shadow;
-        height: 30vh;
-        transform: translateY(-40%);   
+        height: 35vh;
+        transform: translateY(-45%);   
     }
     .contact-article{
-        padding: 1.5rem 4rem;
+        padding: 2.5rem 4rem;
         text-shadow: $shadow-text;
         h3{
             width: 50%;
@@ -23,8 +23,8 @@
         background-color: $white;
         display: inline-block;
         position: absolute;
-        margin-top: 6%;
+        margin-top: 7%;
         margin-left: 7%;
     }
-
+    
 }
